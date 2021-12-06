@@ -1,0 +1,6 @@
+﻿#if DEBUG
+        if (Debugger.IsAttached == false)
+        {
+            Debugger.Launch();
+        }
+#endif
